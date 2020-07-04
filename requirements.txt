@@ -1,9 +1,8 @@
 coverage
-django==1.11.*
+django==2.2.*
 django_redis
 doc8
 gj
-mock
 nose
 pylibmc
 pylint
@@ -12,6 +11,7 @@ pytest-cov
 pytest-django
 pytest-env
 pytest-xdist
+rstcheck
 sphinx
 tox
 twine

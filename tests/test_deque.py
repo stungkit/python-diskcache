@@ -1,10 +1,11 @@
 "Test diskcache.persistent.Deque."
 
 import functools as ft
-import mock
 import pickle
 import pytest
 import shutil
+
+from unittest import mock
 
 import diskcache as dc
 from diskcache.core import ENOVAL

@@ -7,9 +7,9 @@ import errno
 import functools as ft
 import hashlib
 import io
-import mock
 import os
 import os.path as op
+import pickle
 import pytest
 import random
 import shutil
@@ -21,10 +21,7 @@ import threading
 import time
 import warnings
 
-try:
-    import cPickle as pickle
-except:
-    import pickle
+from unittest import mock
 
 import diskcache as dc
 
